@@ -13,10 +13,11 @@ const CharacterSelection: React.FC<CharacterSelectionProps> = ({ onCharacterSele
           <div className="order-2 lg:order-1">
             <div className="relative">
               <div className="w-full max-w-lg mx-auto aspect-square bg-muted rounded-2xl flex items-center justify-center">
-                <div className="text-center">
-                  <div className="w-20 h-20 bg-primary/20 rounded-full mx-auto mb-4"></div>
-                  <p className="text-muted-foreground">Photo coming soon</p>
-                </div>
+                <img
+                  src="../assets/mumuksha_portfolio.jpeg"
+                  alt="Mumuksha Sharma"
+                  className="rounded-2xl object-cover w-full h-full"
+                />
               </div>
             </div>
           </div>
@@ -29,14 +30,14 @@ const CharacterSelection: React.FC<CharacterSelectionProps> = ({ onCharacterSele
                 <span className="block gradient-text">Mumuksha</span>
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-                A passionate web developer and designer crafting meaningful digital experiences. 
+                A passionate web developer and designer crafting meaningful digital experiences.
                 Currently pursuing B.Tech in Computer Science (Data Science) at Poornima Institute.
               </p>
             </div>
 
             <div className="space-y-4 slide-up">
               <h3 className="text-lg font-semibold text-primary mb-4">Choose your path:</h3>
-              
+
               <button
                 onClick={() => onCharacterSelect('recruiter')}
                 className="w-full text-left p-6 rounded-xl border border-border hover:border-primary transition-all hover:shadow-lg group"
