@@ -4,7 +4,7 @@ import mumukshaPhoto from '@/assets/mumuksha_portfolio.jpeg';
 
 const AboutSection: React.FC = () => {
   const skills = ['Teamwork', 'Creativity', 'Resilience', 'Problem Solving', 'Adaptability'];
-  const technologies = ['React', 'TypeScript', 'Tailwind CSS', 'Node.js', 'Python', 'Supabase'];
+  const technologies = ['React', 'JavaScript', 'HTML', 'CSS', 'Node.js', 'C++', 'Supabase'];
 
   return (
     <PortfolioSection id="about" className="py-24">
