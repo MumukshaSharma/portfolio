@@ -14,7 +14,7 @@ const ContactSection: React.FC = () => {
     // Create mailto link with form data
     const subject = encodeURIComponent(`Portfolio Contact from ${formData.name}`);
     const body = encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`);
-    window.location.href = `mailto:mumukshasharma504.@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:mumukshasharma504@gmail.com?subject=${subject}&body=${body}`;
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
